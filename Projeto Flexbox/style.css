@@ -102,7 +102,7 @@ body {
 }
 
 
-/*Container direito - App*/
+/*Container direito - App Download*/
 
 .baixar-app {
     display: flex;
@@ -128,11 +128,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/placeholder.png');
+    background-image: url('./img/app_store.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/placeholder.png');
+    background-image: url('./img/google_play.png');
 }
 
 
@@ -166,3 +166,13 @@ body {
         border: 1px solid transparent;
     }
 }
+
+@media (max-width: 360px) {
+    .download {
+        flex-wrap: wrap;
+    }
+
+    .app-download:nth-child(1) {
+        margin-bottom: 5px;
+    }
+}   
